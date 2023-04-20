@@ -1,0 +1,29 @@
+.rodape{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5vh 0 0 0;
+    background-color: rgb(210, 255, 47);
+}
+.rodape h2{
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rodape nav{
+    flex-grow: 6;
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    align-items: center;
+}
+.rodape img{
+    display: block;
+    width: 9%;
+    max-width: 9%;
+    margin: 0 auto;
+}
+.rodape a{
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+}
