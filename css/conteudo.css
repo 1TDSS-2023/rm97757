@@ -14,3 +14,6 @@
     flex-shrink: 1;
     flex-basis: 300px ;
 }
+.conteudo p{
+    font-family: 'Oswald', sans-serif;
+}
