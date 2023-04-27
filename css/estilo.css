@@ -17,6 +17,27 @@ html{
     margin: 2vh 0;
     font-size: 3rem;        
 }
+table{
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+th, td{
+    border: solid 1px #dddddd;
+    padding: 8px;
+}
+
+td[colspan]{
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #cccccc;
+}
+/* odd ímpar , even par */
+
+tr:hover{
+    background-color: #191010b3;
+}
 
 @media (max-width:590px){
     .cabecalho{
@@ -30,6 +51,7 @@ html{
         padding: 5% 0;
     }
 }
+
 
 
 
