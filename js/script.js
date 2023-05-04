@@ -9,7 +9,7 @@
 
 // var nome1 = "neymaru";
 // // let nome2 = "melin";
-// // const nome3 = "igot";
+// // const nome 3 = "igot";
 
 // if(nome1 == ""){
 //     let nome1 = "igot";
@@ -19,9 +19,14 @@
  const btn = document.getElementById("meu-btn");
 
 // //PRIMEIRO PASSO PARA A TRANSFORMAÇÃO PARA RGB
+//Função matematica Math
+//random = Retorna um número aleatório entre 0 e 1. EX: 0.11322132143
+//floor = aredonda o número para baixo.
+//ceil = aredonda o número para cima.
+// round = aredondo um numero aleatorio.
 
 btn.addEventListener("click", function(){
-//     console.log(this.textContent);
+    //console.log(this.textContent);
     let r=0,g=0,b=0;
 
         r = Math.round(Math.random() * 255);
@@ -31,10 +36,11 @@ btn.addEventListener("click", function(){
         this.setAttribute("style",`background-color:rgb(${r},${g},${b});`);
  });
 
-//Função matematica Math
-//random = Retorna um número aleatório entre 0 e 1. EX: 0.11322132143
-//floor = aredonda o número para baixo.
-//ceil = aredonda o número para cima.
-// round = aredondo um numero aleatorio.
+ const h2Element = document.querySelector(".tit-sec");
+
+    console.log(h2Element);
+
+    //querySelectorAll()
+
 
 
