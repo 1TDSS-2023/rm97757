@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEU-SITE</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js" defer></script>
 <!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
     -->
 </head>
 
-<body>
+<body id="new-cor">
     <header class="cabecalho">
         <img src="./img/logo.png" alt="">
         <nav>
@@ -24,6 +25,49 @@
     </header>
 
 <h2 class="tit-sec">Seçao de Fotos</h2>
+
+    <!-- <button onclick="alert(this.innerText)">Olá Mundo</button> -->
+    <button value="click" id="meu-btn">Click</button>
+
+<!-- <script>
+
+    //Declarar variavei com a palavra reservada (var) :
+    
+        var nr1 = 10;
+        var nr2 = 5;
+    
+    // Imprimindo variaveis com a classe (console)
+    // Vamos criar as operações aritiméticas básicas
+        //Adição
+        console.log(nr1+nr2);
+        //subtração
+        console.log(nr1-nr2);
+        //multiplicação
+        console.log(nr1*nr2);
+        //divisão
+        console.log(nr1/nr2);
+    
+        //repita as operações agora adicionando o texto resultado antes das operações 
+        //adição
+        console.log("Resultado" + (nr1+nr2));
+        //subtração
+        console.log("Resultado" + (nr1-nr2));
+        //multiplicação
+        console.log("Resultado" + (nr1*nr2));
+        //divisão
+        console.log("Resultado" + (nr1/nr2));
+
+        //Interpolação
+        //adição
+        console.log(`Resultado: ${nr1+nr2}`);
+        //subtração
+        console.log(`Resultado  ${nr1-nr2}`);
+        //multiplicação
+        console.log(`Resultado: ${nr1*nr2}`);
+        //divisão
+        console.log(`Resultado: ${nr1/nr2}`);
+    
+</script> -->
 
 <section class="conteudo">
     <div>
@@ -88,7 +132,7 @@
 
 <footer class="rodape">
     <h2>Fale conosco</h2>
-    <nav>
+    <nav class="teste">
         <a href="#"><img src="./img/social-1-24x.png" alt="Logo Github"></a>
         <a href="#"><img src="./img/social-2-24x.png" alt="Logo Facebook"></a>
         <a href="#"><img src="./img/social-3-24x.png" alt="Logo Twitter"></a>
