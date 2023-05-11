@@ -17,9 +17,9 @@ html{
     margin: 2vh 0;
     font-size: 3rem;        
 }
+
 body{
     background-color: #7777;
-}
 
 @media (max-width:590px){
     .cabecalho{
@@ -33,6 +33,7 @@ body{
         padding: 5% 0;
     }
 }
+
 
 
 
