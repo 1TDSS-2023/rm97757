@@ -6,7 +6,7 @@
 //Desafio 3
 //Evite a inserção de mais de um operador por vez no visor.
 function insereNumeroNoVisor(botao,visor) {
-
+    
     if(botao.value === "+" || botao.value === "-" || botao.value === "*" || botao.value === "/"){
 
         if(visor.value[visor.value.length-1] === "+" || visor.value[visor.value.length-1] === "-" || visor.value[visor.value.length-1] === "*" || visor.value[visor.value.length-1] === "/"){
